@@ -1,0 +1,16 @@
+source 'https://github.com/ruixiaoguo/MySpecs.git'
+# CocoaPods官方地址
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'test' do
+
+            pod 'CTMediator'
+            pod 'HandyFrame'
+            pod 'MGJRouter'
+# 私有仓库
+	    pod 'KeyChain'
+            pod 'passwordView'
+# use_framework !
+
+end

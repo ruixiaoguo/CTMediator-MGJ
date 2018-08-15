@@ -1,0 +1,33 @@
+PODS:
+  - CTMediator (18)
+  - HandyFrame (1.2.0)
+  - KeyChain (1.0)
+  - MGJRouter (0.10.0)
+  - passwordView (1.1)
+
+DEPENDENCIES:
+  - CTMediator
+  - HandyFrame
+  - KeyChain
+  - MGJRouter
+  - passwordView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - HandyFrame
+    - MGJRouter
+  https://github.com/ruixiaoguo/MySpecs.git:
+    - KeyChain
+    - passwordView
+
+SPEC CHECKSUMS:
+  CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+  KeyChain: 09941d5e1d3c03eab0ef73803a9c1d5b45c1fcd1
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  passwordView: 7ee50c3c160c7e5f84d8d29b3115b6d2ac7d4ec5
+
+PODFILE CHECKSUM: 5ff73a87be1f3d59f36364b0ab4af41e10d3911b
+
+COCOAPODS: 1.5.3

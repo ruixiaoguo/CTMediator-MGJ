@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0387881528D8E82283BDC302CDBB496E /* DeviceUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = C78E9E0AF06A0E2C0BB1DFB3A0DF420B /* DeviceUUID.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0792CB00CD71A5CE0A56272020433C56 /* LQ_PasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = EECD84B1C288A73044D63A530F65AA85 /* LQ_PasswordView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E2565E0517C840893E3E2A37A87AF94 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = EE602867B2881CC6F6DE183AED63F17F /* MGJRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A79624BD730A5C3F949E83CA5D03CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		3DECC7872329314CAE951FE0224DB01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5FE8D47C7C43682FDE5F9A52638FDC71 /* passwordView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BCB584D4C5B37846F35A16EC426DD /* passwordView-dummy.m */; };
+		6C55DF51FD456BFCC7E840FC70BD261D /* LQ_PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF7096C61A9D336C0187E205D467E05 /* LQ_PasswordView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74E32DE3CF1648C9ED067D1663542223 /* KeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 582351DC5C1B7521E449EDE8921CEA09 /* KeyChainStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76DB998FA3F57B1CD3A885FF37092D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		828FEA294D43D8E9E80B588F2C81EEFD /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF921947563D253F5ACDB9FE6EA37165 /* CTMediator-dummy.m */; };
+		85E9ABA3B31BFA0B0026AB8EB8A3C39F /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F3042E8187E2B21698ADE1F0D32D32E5 /* KeyChainStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9709E357C65E5818744606F9FEFBF678 /* KeyChain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803AFE6464AAAC13244F2E7BE8963AA /* KeyChain-dummy.m */; };
+		9A5A435D4CCC1F7DFCE881C1CB05D6A6 /* HandyFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564B5ECCC3F3C9F7B77FFE2B503E13F /* HandyFrame-dummy.m */; };
+		A3D39E144025D567FF3E4D962A78CBDE /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = BF310C9E75D31B9FD9A0F7351862B7C8 /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7ECCE8D7E5FD30F3BD451819CA2D119 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4427FE48BDDAF0D5F843C3E571C3FFAB /* UIView+LayoutMethods.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4D925D84C9724AEBCC12A6D3CB8EA32 /* Pods-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B604668D0E02A7A4B471A371B974B /* Pods-test-dummy.m */; };
+		D5562801F01E09BAF7B02D1998E00C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		D87989421481D1DD93ABBF60D7F08B62 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 237E9AF2B1C066E0367A6B52CEBD7BD1 /* CTMediator.m */; };
+		E0EF3F45FE6BB69310F709E8A25D6F98 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DA3DB9012F1F30E168933104694612 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8C72595328AC2E8300D1395D3E16403 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 906D67E261D068B411393A8451C02E25 /* MGJRouter.m */; };
+		EE1BB98CA5F0A2C87DBE956F8507B8B8 /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D315E3A38B9D86D4D0E2FA6FE09F7EF4 /* MGJRouter-dummy.m */; };
+		F4549DD3A77B154698B268F426B8BBE4 /* DeviceUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B487BA200DD625A26BC847514F8BE4 /* DeviceUUID.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EFCACC8EEBC05365C31B78867BC28DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956C2473531D8D92BCDD6337C85F5E10;
+			remoteInfo = MGJRouter;
+		};
+		1AE13395FEE4A3867765D60493437DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DFC69A92FB4CF81ED2878CA5A948097;
+			remoteInfo = KeyChain;
+		};
+		30C96E95FE0B9C842DC404546E037B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860DBFDF4A7872F6049CBAEAA721AD9;
+			remoteInfo = CTMediator;
+		};
+		7D44706334B2A8FCB371249CE08E6B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE7626C59502975CB181413AF2281656;
+			remoteInfo = HandyFrame;
+		};
+		C58E7592024FCB15A84D4BF3DA259731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC3535CDB8149A5C84DBE72D7CB0EB4;
+			remoteInfo = passwordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9FD819817BB17778B8CE481771ECFB /* Pods-test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-resources.sh"; sourceTree = "<group>"; };
+		0E423F768B84D4C54616D8D9B4AF5A6F /* libpasswordView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libpasswordView.a; path = libpasswordView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4E7F89BE4C7557533E1694875008EF /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		237E9AF2B1C066E0367A6B52CEBD7BD1 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		2803AFE6464AAAC13244F2E7BE8963AA /* KeyChain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyChain-dummy.m"; sourceTree = "<group>"; };
+		4427FE48BDDAF0D5F843C3E571C3FFAB /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		4564B5ECCC3F3C9F7B77FFE2B503E13F /* HandyFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyFrame-dummy.m"; sourceTree = "<group>"; };
+		45778FD5337F30A327CB284290F427BE /* libKeyChain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKeyChain.a; path = libKeyChain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1EEC041A31C968818FF7839807A2B9 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-test.a"; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E8D4DE86F1BACA105CBC3C9B6CFFA3 /* KeyChain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyChain-prefix.pch"; sourceTree = "<group>"; };
+		582351DC5C1B7521E449EDE8921CEA09 /* KeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyChainStore.h; path = "KeyChain+UUID/KeyChain/KeyChainStore.h"; sourceTree = "<group>"; };
+		59D66CC1BDDE73A6924A42C138F0F6C0 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		631C4BB55632029B13096B6BC448896A /* passwordView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = passwordView.xcconfig; sourceTree = "<group>"; };
+		65EB03EF2BF7B1909AAD7E94C19A0274 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMGJRouter.a; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E712744C6B7C203420AB9B20633AF4F /* Pods-test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E7BCB584D4C5B37846F35A16EC426DD /* passwordView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "passwordView-dummy.m"; sourceTree = "<group>"; };
+		906D67E261D068B411393A8451C02E25 /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B487BA200DD625A26BC847514F8BE4 /* DeviceUUID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceUUID.m; path = "KeyChain+UUID/KeyChain/DeviceUUID.m"; sourceTree = "<group>"; };
+		9CF31BE2BC7A795AC6CF3F5071E69A4F /* libHandyFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHandyFrame.a; path = libHandyFrame.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF7096C61A9D336C0187E205D467E05 /* LQ_PasswordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LQ_PasswordView.m; path = "验证码输入框/passWordView/LQ_PasswordView.m"; sourceTree = "<group>"; };
+		B0B66EC038C9D5938A2E007AC6C540F3 /* HandyFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyFrame.xcconfig; sourceTree = "<group>"; };
+		B19F5B2134F698EFD3FD37EB3376C7A7 /* HandyFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyFrame-prefix.pch"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD64B9B40E979ACAFC5510851F892304 /* Pods-test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-frameworks.sh"; sourceTree = "<group>"; };
+		BF310C9E75D31B9FD9A0F7351862B7C8 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		BF921947563D253F5ACDB9FE6EA37165 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		C1EEB3782DA34A9FC1FF41E49E089B7C /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		C78E9E0AF06A0E2C0BB1DFB3A0DF420B /* DeviceUUID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceUUID.h; path = "KeyChain+UUID/KeyChain/DeviceUUID.h"; sourceTree = "<group>"; };
+		CECDE1EE94DAD4B2885B2A71CBFEEFFB /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
+		D315E3A38B9D86D4D0E2FA6FE09F7EF4 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
+		D45B604668D0E02A7A4B471A371B974B /* Pods-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test-dummy.m"; sourceTree = "<group>"; };
+		D7DA3DB9012F1F30E168933104694612 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		DCFDC17B27AA7D1A32FE374DE2A93B5F /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		DE6634946F44CA27797E07258A458BB6 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		E65197D94444D2AB56E36A328457F61D /* KeyChain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyChain.xcconfig; sourceTree = "<group>"; };
+		E772C53A370CC413B7D7A1B618FD2BC0 /* passwordView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "passwordView-prefix.pch"; sourceTree = "<group>"; };
+		E8C0E404DA7A678E73F2280C64884592 /* Pods-test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE602867B2881CC6F6DE183AED63F17F /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
+		EECD84B1C288A73044D63A530F65AA85 /* LQ_PasswordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LQ_PasswordView.h; path = "验证码输入框/passWordView/LQ_PasswordView.h"; sourceTree = "<group>"; };
+		F3042E8187E2B21698ADE1F0D32D32E5 /* KeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeyChainStore.m; path = "KeyChain+UUID/KeyChain/KeyChainStore.m"; sourceTree = "<group>"; };
+		FCB7B8F9384BA7D1466459E2E0ABA0BD /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310ACDF2078FCB9A354A2E5CCB64F685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A79624BD730A5C3F949E83CA5D03CC4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F052D2A1B9F9914BA2ABD2D78FDDCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762A595BF97D2FAFE096B0035555D64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5562801F01E09BAF7B02D1998E00C71 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0DEDCC31E023982BFDFD5986C5A0CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DB998FA3F57B1CD3A885FF37092D46 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD36BB7D28EF68DE98916EE0C5D016B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91D2E1B7272D342AAB748C06EE3976A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DECC7872329314CAE951FE0224DB01D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		15A1919000BAEF7EFFA1BF4EFBB1B17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59D66CC1BDDE73A6924A42C138F0F6C0 /* libCTMediator.a */,
+				9CF31BE2BC7A795AC6CF3F5071E69A4F /* libHandyFrame.a */,
+				45778FD5337F30A327CB284290F427BE /* libKeyChain.a */,
+				65EB03EF2BF7B1909AAD7E94C19A0274 /* libMGJRouter.a */,
+				0E423F768B84D4C54616D8D9B4AF5A6F /* libpasswordView.a */,
+				4E1EEC041A31C968818FF7839807A2B9 /* libPods-test.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F611ADAB70A2A064EA9E28C281A452D /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				EE602867B2881CC6F6DE183AED63F17F /* MGJRouter.h */,
+				906D67E261D068B411393A8451C02E25 /* MGJRouter.m */,
+				B2D712B5F8AE6BA2A094A567447D3D8E /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		1FCBE939648B535AE9A547A53EE3CD74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0B66EC038C9D5938A2E007AC6C540F3 /* HandyFrame.xcconfig */,
+				4564B5ECCC3F3C9F7B77FFE2B503E13F /* HandyFrame-dummy.m */,
+				B19F5B2134F698EFD3FD37EB3376C7A7 /* HandyFrame-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HandyFrame";
+			sourceTree = "<group>";
+		};
+		346AE5A74BF86412F561820D7B68E3FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3EFACA4C2477CAA76F1EF6FB04246 /* CTMediator */,
+				C6109C5D89E5B529173C72377CCA703B /* HandyFrame */,
+				740873876147038478B1DCA7BF8370A1 /* KeyChain */,
+				1F611ADAB70A2A064EA9E28C281A452D /* MGJRouter */,
+				C26489DE2CB0C8E0B5CFC819405A39DC /* passwordView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3ACD80C0FD674901062B9FD9971F6FB4 /* Pods-test */ = {
+			isa = PBXGroup;
+			children = (
+				E8C0E404DA7A678E73F2280C64884592 /* Pods-test-acknowledgements.markdown */,
+				6E712744C6B7C203420AB9B20633AF4F /* Pods-test-acknowledgements.plist */,
+				D45B604668D0E02A7A4B471A371B974B /* Pods-test-dummy.m */,
+				BD64B9B40E979ACAFC5510851F892304 /* Pods-test-frameworks.sh */,
+				0B9FD819817BB17778B8CE481771ECFB /* Pods-test-resources.sh */,
+				DE6634946F44CA27797E07258A458BB6 /* Pods-test.debug.xcconfig */,
+				C1EEB3782DA34A9FC1FF41E49E089B7C /* Pods-test.release.xcconfig */,
+			);
+			name = "Pods-test";
+			path = "Target Support Files/Pods-test";
+			sourceTree = "<group>";
+		};
+		3CF3EFACA4C2477CAA76F1EF6FB04246 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				D7DA3DB9012F1F30E168933104694612 /* CTMediator.h */,
+				237E9AF2B1C066E0367A6B52CEBD7BD1 /* CTMediator.m */,
+				DA8DE6FDC5B00AA761F79CEF304528A0 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C3D8E236C9EA98DFAE184E96664C101 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				631C4BB55632029B13096B6BC448896A /* passwordView.xcconfig */,
+				6E7BCB584D4C5B37846F35A16EC426DD /* passwordView-dummy.m */,
+				E772C53A370CC413B7D7A1B618FD2BC0 /* passwordView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/passwordView";
+			sourceTree = "<group>";
+		};
+		740873876147038478B1DCA7BF8370A1 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				C78E9E0AF06A0E2C0BB1DFB3A0DF420B /* DeviceUUID.h */,
+				98B487BA200DD625A26BC847514F8BE4 /* DeviceUUID.m */,
+				582351DC5C1B7521E449EDE8921CEA09 /* KeyChainStore.h */,
+				F3042E8187E2B21698ADE1F0D32D32E5 /* KeyChainStore.m */,
+				F35E02BD3C8067C4DA28D0C661837A01 /* Support Files */,
+			);
+			name = KeyChain;
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				346AE5A74BF86412F561820D7B68E3FD /* Pods */,
+				15A1919000BAEF7EFFA1BF4EFBB1B17C /* Products */,
+				7EAE4325D54CD56710EA21F842C59A53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EAE4325D54CD56710EA21F842C59A53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACD80C0FD674901062B9FD9971F6FB4 /* Pods-test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2D712B5F8AE6BA2A094A567447D3D8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFDC17B27AA7D1A32FE374DE2A93B5F /* MGJRouter.xcconfig */,
+				D315E3A38B9D86D4D0E2FA6FE09F7EF4 /* MGJRouter-dummy.m */,
+				CECDE1EE94DAD4B2885B2A71CBFEEFFB /* MGJRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
+		C26489DE2CB0C8E0B5CFC819405A39DC /* passwordView */ = {
+			isa = PBXGroup;
+			children = (
+				EECD84B1C288A73044D63A530F65AA85 /* LQ_PasswordView.h */,
+				ADF7096C61A9D336C0187E205D467E05 /* LQ_PasswordView.m */,
+				6C3D8E236C9EA98DFAE184E96664C101 /* Support Files */,
+			);
+			name = passwordView;
+			path = passwordView;
+			sourceTree = "<group>";
+		};
+		C6109C5D89E5B529173C72377CCA703B /* HandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				BF310C9E75D31B9FD9A0F7351862B7C8 /* UIView+LayoutMethods.h */,
+				4427FE48BDDAF0D5F843C3E571C3FFAB /* UIView+LayoutMethods.m */,
+				1FCBE939648B535AE9A547A53EE3CD74 /* Support Files */,
+			);
+			name = HandyFrame;
+			path = HandyFrame;
+			sourceTree = "<group>";
+		};
+		DA8DE6FDC5B00AA761F79CEF304528A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E7F89BE4C7557533E1694875008EF /* CTMediator.xcconfig */,
+				BF921947563D253F5ACDB9FE6EA37165 /* CTMediator-dummy.m */,
+				FCB7B8F9384BA7D1466459E2E0ABA0BD /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		F35E02BD3C8067C4DA28D0C661837A01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65197D94444D2AB56E36A328457F61D /* KeyChain.xcconfig */,
+				2803AFE6464AAAC13244F2E7BE8963AA /* KeyChain-dummy.m */,
+				55E8D4DE86F1BACA105CBC3C9B6CFFA3 /* KeyChain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeyChain";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		300306DF6C6B790FA208422ED106F80D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2565E0517C840893E3E2A37A87AF94 /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4928C77C7B4D975A0F53053D2A5A5CE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EF3F45FE6BB69310F709E8A25D6F98 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF00F5F1FCF05F01B5912E5145E5D76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0387881528D8E82283BDC302CDBB496E /* DeviceUUID.h in Headers */,
+				74E32DE3CF1648C9ED067D1663542223 /* KeyChainStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C508CFCE408ECA0AF2B4B276446EA34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0792CB00CD71A5CE0A56272020433C56 /* LQ_PasswordView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4C0B21F71A105D2DFB439FE7986EE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D39E144025D567FF3E4D962A78CBDE /* UIView+LayoutMethods.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DFC69A92FB4CF81ED2878CA5A948097 /* KeyChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E1079E5DA12E9504F244F616714658 /* Build configuration list for PBXNativeTarget "KeyChain" */;
+			buildPhases = (
+				2B1292F939F2ED19AB2F4D32E22DF5C9 /* Sources */,
+				F91D2E1B7272D342AAB748C06EE3976A /* Frameworks */,
+				4EF00F5F1FCF05F01B5912E5145E5D76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChain;
+			productName = KeyChain;
+			productReference = 45778FD5337F30A327CB284290F427BE /* libKeyChain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6CC3535CDB8149A5C84DBE72D7CB0EB4 /* passwordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A6DE1FBC387CB36621816ECA05C91A /* Build configuration list for PBXNativeTarget "passwordView" */;
+			buildPhases = (
+				1380F1E34205E62F23CB5AE84CA4D57E /* Sources */,
+				310ACDF2078FCB9A354A2E5CCB64F685 /* Frameworks */,
+				5C508CFCE408ECA0AF2B4B276446EA34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = passwordView;
+			productName = passwordView;
+			productReference = 0E423F768B84D4C54616D8D9B4AF5A6F /* libpasswordView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		931189A0BDC1A692AD894B91198A7378 /* Pods-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E3F5B5F1F83743F6D5009C40FC7C43 /* Build configuration list for PBXNativeTarget "Pods-test" */;
+			buildPhases = (
+				661F761E405DE12519074C667ADE3359 /* Sources */,
+				BD36BB7D28EF68DE98916EE0C5D016B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C668D7F4E50EBB4A296CCDD135F4A75 /* PBXTargetDependency */,
+				C5C304BD298C51B735492829E0A678D8 /* PBXTargetDependency */,
+				7FA2EB4061F8E31EE008B386C51EE46A /* PBXTargetDependency */,
+				2E4C1A52DAAAF87A951622FEB26E69BA /* PBXTargetDependency */,
+				A1B52DF016C0562A1690EDB39D4C4F37 /* PBXTargetDependency */,
+			);
+			name = "Pods-test";
+			productName = "Pods-test";
+			productReference = 4E1EEC041A31C968818FF7839807A2B9 /* libPods-test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		956C2473531D8D92BCDD6337C85F5E10 /* MGJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E6FD576895557AF7962BA6C12BDFA3 /* Build configuration list for PBXNativeTarget "MGJRouter" */;
+			buildPhases = (
+				899B56BD52EC7A3FFECB602D9DDC5112 /* Sources */,
+				4F052D2A1B9F9914BA2ABD2D78FDDCC5 /* Frameworks */,
+				300306DF6C6B790FA208422ED106F80D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = 65EB03EF2BF7B1909AAD7E94C19A0274 /* libMGJRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE7626C59502975CB181413AF2281656 /* HandyFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C772E14302413787E60595CDCF879702 /* Build configuration list for PBXNativeTarget "HandyFrame" */;
+			buildPhases = (
+				9612DF5DB3D9E657CB1BB017895A8091 /* Sources */,
+				762A595BF97D2FAFE096B0035555D64E /* Frameworks */,
+				9A4C0B21F71A105D2DFB439FE7986EE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyFrame;
+			productName = HandyFrame;
+			productReference = 9CF31BE2BC7A795AC6CF3F5071E69A4F /* libHandyFrame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364F80A1A1AFF0BC44145F20DB8BE91E /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				741ACAB06712A87B9A72721865B9577F /* Sources */,
+				B0DEDCC31E023982BFDFD5986C5A0CE0 /* Frameworks */,
+				4928C77C7B4D975A0F53053D2A5A5CE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 59D66CC1BDDE73A6924A42C138F0F6C0 /* libCTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 15A1919000BAEF7EFFA1BF4EFBB1B17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */,
+				AE7626C59502975CB181413AF2281656 /* HandyFrame */,
+				0DFC69A92FB4CF81ED2878CA5A948097 /* KeyChain */,
+				956C2473531D8D92BCDD6337C85F5E10 /* MGJRouter */,
+				6CC3535CDB8149A5C84DBE72D7CB0EB4 /* passwordView */,
+				931189A0BDC1A692AD894B91198A7378 /* Pods-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1380F1E34205E62F23CB5AE84CA4D57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C55DF51FD456BFCC7E840FC70BD261D /* LQ_PasswordView.m in Sources */,
+				5FE8D47C7C43682FDE5F9A52638FDC71 /* passwordView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1292F939F2ED19AB2F4D32E22DF5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4549DD3A77B154698B268F426B8BBE4 /* DeviceUUID.m in Sources */,
+				9709E357C65E5818744606F9FEFBF678 /* KeyChain-dummy.m in Sources */,
+				85E9ABA3B31BFA0B0026AB8EB8A3C39F /* KeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661F761E405DE12519074C667ADE3359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D925D84C9724AEBCC12A6D3CB8EA32 /* Pods-test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741ACAB06712A87B9A72721865B9577F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828FEA294D43D8E9E80B588F2C81EEFD /* CTMediator-dummy.m in Sources */,
+				D87989421481D1DD93ABBF60D7F08B62 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899B56BD52EC7A3FFECB602D9DDC5112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1BB98CA5F0A2C87DBE956F8507B8B8 /* MGJRouter-dummy.m in Sources */,
+				E8C72595328AC2E8300D1395D3E16403 /* MGJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9612DF5DB3D9E657CB1BB017895A8091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5A435D4CCC1F7DFCE881C1CB05D6A6 /* HandyFrame-dummy.m in Sources */,
+				A7ECCE8D7E5FD30F3BD451819CA2D119 /* UIView+LayoutMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4C1A52DAAAF87A951622FEB26E69BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 956C2473531D8D92BCDD6337C85F5E10 /* MGJRouter */;
+			targetProxy = 0EFCACC8EEBC05365C31B78867BC28DF /* PBXContainerItemProxy */;
+		};
+		7C668D7F4E50EBB4A296CCDD135F4A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = E860DBFDF4A7872F6049CBAEAA721AD9 /* CTMediator */;
+			targetProxy = 30C96E95FE0B9C842DC404546E037B83 /* PBXContainerItemProxy */;
+		};
+		7FA2EB4061F8E31EE008B386C51EE46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyChain;
+			target = 0DFC69A92FB4CF81ED2878CA5A948097 /* KeyChain */;
+			targetProxy = 1AE13395FEE4A3867765D60493437DFE /* PBXContainerItemProxy */;
+		};
+		A1B52DF016C0562A1690EDB39D4C4F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = passwordView;
+			target = 6CC3535CDB8149A5C84DBE72D7CB0EB4 /* passwordView */;
+			targetProxy = C58E7592024FCB15A84D4BF3DA259731 /* PBXContainerItemProxy */;
+		};
+		C5C304BD298C51B735492829E0A678D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyFrame;
+			target = AE7626C59502975CB181413AF2281656 /* HandyFrame */;
+			targetProxy = 7D44706334B2A8FCB371249CE08E6B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1FA27E1AF96AF824A9C54E399A60967A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFDC17B27AA7D1A32FE374DE2A93B5F /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326B8E20172420BD36A6E7A9E8A09A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65197D94444D2AB56E36A328457F61D /* KeyChain.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyChain/KeyChain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KeyChain;
+				PRODUCT_NAME = KeyChain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5C7149B00DDC25F60BF4E249B11938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4E7F89BE4C7557533E1694875008EF /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		757F6B248113B9405BFD11EEEB6096E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFDC17B27AA7D1A32FE374DE2A93B5F /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA0EEE723B3920088FD6F599195096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B66EC038C9D5938A2E007AC6C540F3 /* HandyFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HandyFrame;
+				PRODUCT_NAME = HandyFrame;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8966EEF8D966F3972BF70DD24DB36B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EEB3782DA34A9FC1FF41E49E089B7C /* Pods-test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E07390464DEEED699C1AEB728FF3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B66EC038C9D5938A2E007AC6C540F3 /* HandyFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HandyFrame;
+				PRODUCT_NAME = HandyFrame;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C50435F2A5530AB14CE1565D6921535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631C4BB55632029B13096B6BC448896A /* passwordView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/passwordView/passwordView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = passwordView;
+				PRODUCT_NAME = passwordView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5EF221FE6F70516AD71E85B7D7760AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4E7F89BE4C7557533E1694875008EF /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1D495494583946762CF3177EE6C7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631C4BB55632029B13096B6BC448896A /* passwordView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/passwordView/passwordView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = passwordView;
+				PRODUCT_NAME = passwordView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D397C93A9DCCA4BAC05E0B93DE8303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6634946F44CA27797E07258A458BB6 /* Pods-test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF0B67A339DB551F4931F9C849DC171E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65197D94444D2AB56E36A328457F61D /* KeyChain.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyChain/KeyChain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KeyChain;
+				PRODUCT_NAME = KeyChain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364F80A1A1AFF0BC44145F20DB8BE91E /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C7149B00DDC25F60BF4E249B11938 /* Debug */,
+				E5EF221FE6F70516AD71E85B7D7760AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E6FD576895557AF7962BA6C12BDFA3 /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA27E1AF96AF824A9C54E399A60967A /* Debug */,
+				757F6B248113B9405BFD11EEEB6096E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E1079E5DA12E9504F244F616714658 /* Build configuration list for PBXNativeTarget "KeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B8E20172420BD36A6E7A9E8A09A66 /* Debug */,
+				FF0B67A339DB551F4931F9C849DC171E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C772E14302413787E60595CDCF879702 /* Build configuration list for PBXNativeTarget "HandyFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E07390464DEEED699C1AEB728FF3C4 /* Debug */,
+				7EA0EEE723B3920088FD6F599195096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E3F5B5F1F83743F6D5009C40FC7C43 /* Build configuration list for PBXNativeTarget "Pods-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D397C93A9DCCA4BAC05E0B93DE8303 /* Debug */,
+				8966EEF8D966F3972BF70DD24DB36B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A6DE1FBC387CB36621816ECA05C91A /* Build configuration list for PBXNativeTarget "passwordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C50435F2A5530AB14CE1565D6921535 /* Debug */,
+				EE1D495494583946762CF3177EE6C7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
