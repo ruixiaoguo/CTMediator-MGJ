@@ -16,8 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"self.pushKeyStr======%@",self.pushKeyStr);
+    self.view.backgroundColor = [UIColor purpleColor];
+    if (self.listArray) {
+       NSLog(@"参数传递======%@",self.listArray);
+    }
+    if (self.pushKeyStr) {
+       NSLog(@"参数传递======%@",self.pushKeyStr);
+    }
+    UIButton *tagBtn = [[UIButton alloc]initWithFrame:CGRectMake(110, 300, 200, 50)];
+    [tagBtn setTitle:@"Block回调" forState:UIControlStateNormal];
+    tagBtn.layer.borderWidth = 1;
+    tagBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+    tagBtn.layer.cornerRadius = 10;
+    [self.view addSubview:tagBtn];
+    [tagBtn addTarget:self action:@selector(tagBtnClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+-(void)tagBtnClick{
+    
+    if (self.clickBlock) {
+        self.clickBlock(@"Block回调！！！");
+    }
 }
 
 - (void)didReceiveMemoryWarning {

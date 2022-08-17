@@ -10,7 +10,8 @@
 
 @interface DetailViewController : UIViewController
 
+@property (nonatomic,copy) void(^clickBlock)(NSString *clickTag);
+@property (nonatomic,strong) NSArray *listArray;
 @property (nonatomic,strong) NSString *pushKeyStr;
-
 @end
 

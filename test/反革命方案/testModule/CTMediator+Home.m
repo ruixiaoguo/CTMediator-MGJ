@@ -9,6 +9,8 @@
 #import "CTMediator+Home.h"
 NSString * const kCTMediatorTargetHome = @"HomeAction";
 NSString * const kCTPushDetailViewController = @"pushToDetailVC";
+NSString * const kCTPushDetailBlockViewController = @"pushToDetailVCWithBlock";
+
 
 @implementation CTMediator (Home)
 
@@ -16,7 +18,23 @@ NSString * const kCTPushDetailViewController = @"pushToDetailVC";
 {
     UIViewController *viewController = [self performTarget:kCTMediatorTargetHome
                                                     action:kCTPushDetailViewController
-                                                    params:@{@"key":@"value"}
+                                                    params:@{}
+                                         shouldCacheTarget:NO
+                                        ];
+    
+    if ([viewController isKindOfClass:[UIViewController class]]) {
+        // view controller 交付出去之后，可以由外界选择是push还是present
+        return viewController;
+    } else {
+        // 这里处理异常场景，具体如何处理取决于产品
+        return [[UIViewController alloc] init];
+    }
+}
+- (UIViewController *)CTMediator_viewControllerForParmasDetail:(NSDictionary *)dic
+{
+    UIViewController *viewController = [self performTarget:kCTMediatorTargetHome
+                                                    action:kCTPushDetailViewController
+                                                    params:dic
                                          shouldCacheTarget:NO
                                         ];
     if ([viewController isKindOfClass:[UIViewController class]]) {
@@ -28,4 +46,24 @@ NSString * const kCTPushDetailViewController = @"pushToDetailVC";
     }
 }
 
+- (UIViewController *)CTMediator_viewControllerForDetailWithBlock:(clickMediaDetailBlock)block{
+    /** 将Block存入字典中 */
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    if (block) {
+        params[@"clickBlock"] = block;
+    }
+    UIViewController *viewController = [self performTarget:kCTMediatorTargetHome
+                                                    action:kCTPushDetailBlockViewController
+                                                    params:params
+                                         shouldCacheTarget:NO
+                                        ];
+    
+    if ([viewController isKindOfClass:[UIViewController class]]) {
+        // view controller 交付出去之后，可以由外界选择是push还是present
+        return viewController;
+    } else {
+        // 这里处理异常场景，具体如何处理取决于产品
+        return [[UIViewController alloc] init];
+    }
+}
 @end
